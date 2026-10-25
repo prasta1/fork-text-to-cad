@@ -110,7 +110,6 @@ HEAVY_POLICY = {
 # Skill suites that need nothing installed: they read their skill's files.
 LIGHT_SKILL_TESTS = (
     f"{SKILL_SUITES}/gcode",
-    f"{SKILL_SUITES}/sendcutsend",
     f"{SKILL_SUITES}/step-parts",
 )
 # The skill suites that drive cadgen's CLIs, and so read everything cadgen reads.
