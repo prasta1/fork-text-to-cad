@@ -13,14 +13,8 @@
         "dfm",
         "dfam-check",
         "gcode",
-        "bambu-labs",
-        "sendcutsend"
+        "bambu-labs"
       ]
-    },
-    {
-      "title": "Robotics",
-      "description": "Robot descriptions for ROS, MoveIt2 and Gazebo.",
-      "skills": ["urdf", "srdf", "sdf"]
     }
   ]
 }
