@@ -193,10 +193,4 @@ export const skillGroups = [
     summary:
       "Slices models into printer-ready G-code with OrcaSlicer, using your own printer presets.",
   },
-  {
-    name: "Bambu Labs",
-    path: "skills/bambu-labs",
-    summary:
-      "Sends prints to Bambu Lab printers through Bambu Connect, Bambu Lab's official app, or Bambu Studio.",
-  },
 ];

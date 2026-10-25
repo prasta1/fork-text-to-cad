@@ -11,8 +11,7 @@ Use the installed local skill files as the runtime source of truth; the
 repository link is only for provenance and release review.
 
 Slice with OrcaSlicer, headless (below) or by opening the model in the
-OrcaSlicer app for the user. The agent never contacts a printer: for a Bambu
-Lab printer, hand the result to `$bambu-labs`; for any other printer, give the
+OrcaSlicer app for the user. The agent never contacts a printer: give the
 user the `.gcode`.
 
 ## Install OrcaSlicer
@@ -88,6 +87,5 @@ be found, open the model in the app: `open -a OrcaSlicer model.stl` on macOS,
 
 ## Hand off
 
-- A Bambu Lab printer: `$bambu-labs`, with the `.gcode.3mf`.
-- Any other printer: the user prints the `.gcode` from their printer's app, its
+- The user prints the `.gcode` from their printer's app, its
   web interface (PrusaLink, OctoPrint, Mainsail, Fluidd) or an SD card.

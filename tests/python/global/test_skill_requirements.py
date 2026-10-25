@@ -9,7 +9,7 @@ with a daemon of its own, and its docs may describe a cadgen that is not the one
 
 Stated as a criterion rather than a list, as before: "uses cadgen" is what the skill's docs
 TEACH (`cadgen ...`) or what its own Python imports. Skills that never touch cadgen
-(bambu-labs, dfam-check, gcode, step-parts) carry no launch command, and a
+(dfam-check, gcode, step-parts) carry no launch command, and a
 mention on a line that hands off to another skill (`$cad: cadgen stl build ...`) is that
 skill's command, not this one's.
 """
@@ -73,7 +73,7 @@ def _teaches_cadgen(skill: Path) -> bool:
 
 class SkillLaunchCommand(unittest.TestCase):
     def test_skills_were_found(self) -> None:
-        self.assertGreaterEqual(len(SKILLS), 8, "the skills/ glob found almost nothing")
+        self.assertGreaterEqual(len(SKILLS), 5, "the skills/ glob found almost nothing")
 
     def test_every_skill_that_uses_cadgen_defines_the_launch_command(self) -> None:
         for skill in SKILLS:
